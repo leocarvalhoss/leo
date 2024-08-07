@@ -1,0 +1,15 @@
+body{
+    background: #dfdce3;
+}
+body>div{
+    width: 300px;
+    height: 100px;
+    margin: 50px 60px;
+    float: left;
+    background: tomato;
+    font-weight: 800;
+    font-size: 35px;
+    color: peachpuff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}

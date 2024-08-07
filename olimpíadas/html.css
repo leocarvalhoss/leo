@@ -1,0 +1,46 @@
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img > img{
+    width: 200px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 3em;
+}
+
+header > nav > a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.sports > ol > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+form{
+    margin-top: 40px;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}

@@ -1,0 +1,24 @@
+.Surpresa9 :hover{
+    animation: Swing 1s ease;
+    animation-iteration-count: 1;
+}
+@keyframes Swing{
+    15%{
+        transform: translateX(7px);
+    }
+    30%{
+        transform: translateX(-7px);
+    }
+    50%{
+        transform: translateX(3px);
+    }
+    65%{
+        transform: translateX(-3px);
+    }
+    80%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
